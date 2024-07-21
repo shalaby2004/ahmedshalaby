@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Shalaby - Portfolio</title>
+    <link rel="icon" href="img/logo.svg">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        #loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #27ae60; /* Green */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: fixed; /* Center the loader */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+    </style>
+</head>
+<body class="main-content">
+    <div id="loader"></div>
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/me.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Ahmed Shalaby.</span><br>
+                </h1>
+                <p id="name"><i>You can call me <span>Ahmed Shalaby</span> or <span>Shalaby</span>! </i></p>
+                <p>
+                    I'm a passionate and dedicated web developer, translator, and content writer.
+                    With a keen eye for detail and a love for creativity, I strive to deliver high-quality work that meets the unique needs of my clients.
+                </p>
+                <div class="btn-con">
+                    <a href="PDFs/Resume-Ahmed-Mohamed-Shalaby-Mohamed.pdf" class="main-btn">
+                        <span class="btn-text">Download Résumé</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        <p>I graduated from STEM High School for Boys – 6th of October, where I developed a solid foundation in Science Technology Engineering Mathematics fields. Over the past 3 years, I have honed my skills through various projects and collaborations, working with clients from diverse industries.</p>
+                    </p>
+                    <div class="btn-con">
+                        <a href="PDFs/Resume-Ahmed-Mohamed-Shalaby-Mohamed.pdf" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">6+</p>
+                            <p class="small-text">Projects <br /> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">3+</p>
+                            <p class="small-text">Years of <br /> experience</p>
+                        </div>
+                    </div>
+                   <!-- <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">300+</p>
+                            <p class="small-text">Happy <br /> Clients</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">400+</p>
+                            <p class="small-text">Customer <br /> reviews</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title"><strong>Web development:</strong></p>
+                        <p>Front-end development</p>
+                        <div class="progress-con">
+                            <p class="prog-text">98%</p>
+                            <div class="progress">
+                                <span style="width: 98%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title"><strong>Transaltion</strong></p>
+                        <div class="progress-con">
+                            <p class="prog-text">85%</p>
+                            <div class="progress">
+                                <span style="width: 85%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title"><strong>Content Writing</strong></p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span style="width: 90%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title"><strong>Graphic Design:</strong></p>
+                        <p>Adobe Photoshop, Adobe Illustrator, Canva</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title"><strong>Mobile Applications:</strong></p>
+                        <p>Flutter, Dart, Android Studio</p>
+                        <div class="progress-con">
+                            <p class="prog-text">78%</p>
+                            <div class="progress">
+                                <span style="width: 78%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="language-section">
+                <h4 class="stat-title">Languages</h4>
+                <div class="row">
+                    <div class="col">
+                        <div class="feature">
+                            <h3 class="fs-2 text-body-emphasis">Arabic</h3>
+                            <p class="language-level">The Mother Tongue</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="feature">
+                            <h3 class="fs-2 text-body-emphasis">Fluent English</h3>
+                            <p class="language-level">The Second language</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="feature">
+                            <h3 class="fs-2 text-body-emphasis">Beginner German</h3>
+                            <p class="language-level">The third language</p>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022 - 2023</p>
+                    <h5>Web Developer<span> - STEM October Physics Club</span></h5>
+                    
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 - Present</p>
+                    <h5>Web developer<span> - Ebhath Organization</span></h5>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022 - 2023</p>
+                    <h5>Content Writer<span> - STEM October Computer Science Club</span></h5>
+                </div> 
+            </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/Ebhath.png" alt="Ebhath">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/Karim3tef/Ebhath" target="_blank" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.ebhath.org" target="_blank" class="icon">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/physics club.png" alt="Physics Club">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://octphysicsclub.org/" target="_blank" class="icon">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/Blue White Professinal Report Cover Page.png" alt="English Report Coverpage">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://www.canva.com/design/DAGDuFOyTrI/0K18fQJ2baEaHRM4ruRN7Q/edit?utm_content=DAGDuFOyTrI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="icon">
+                                <i class="bi bi-images"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                <a href="blogs/blog1.html" target="_blank"><div class="blog">
+                        <img src="img/blog1.png" alt="Numpy vs Pandas">
+                        <div class="blog-text">
+                            <h4>
+                               Numpy Vs Pandas
+                            </h4>
+                            <p>
+                                Numpy (Numerical Python) is a fundamental package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, as well as a variety of high-level mathematical functions to operate on these arrays. Numpy is one of the most essential libraries in the Python data science ecosystem.
+                            </p>
+                        </div>
+                    </div> </a>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : Cairo, Egypt
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: ahmedelkingshalaboka2004@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>: STEM High School for Boys, 6th of October City</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: +201091440517</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>: Arabic, English, German</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.facebook.com/ahmedelking.ahmedshalaby" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/ahmedshalaby2004/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="PDFs/Resume-Ahmed-Mohamed-Shalaby-Mohamed.pdf" class="main-btn">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js">
+        document.addEventListener("DOMContentLoaded", function() {
+          // Hide the loader when the content is fully loaded
+          document.getElementById("loader").style.display = "none";
+        });
+      
+        // Show the loader initially
+        window.onload = function() {
+          document.getElementById("loader").style.display = "block";
+        };
+      </script>
+      </script>
+</body>
+</html>
